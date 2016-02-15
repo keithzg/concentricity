@@ -1,18 +1,27 @@
 {
-  "uuid": "f15dcfc2-df43-456c-abb0-8657e6733bcf",
-  "shortName": "Concentricity",
-  "longName": "Concentricity",
-  "companyName": "Pebble Technology",
-  "versionLabel": "1.0",
-  "sdkVersion": "3",
-  "targetPlatforms": ["aplite", "basalt", "chalk"],
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": []
-  }
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pebble Technology & KeithZG",
+    "enableMultiJS": true,
+    "longName": "Concentricity 24-hour",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Concentricity-24hr",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "3a51951f-1619-425c-8f30-a611abbfb8e0",
+    "versionLabel": "1.1",
+    "watchapp": {
+        "watchface": true
+    }
 }

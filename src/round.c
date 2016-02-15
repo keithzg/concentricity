@@ -4,7 +4,7 @@
 #include "ui.h"
 
 #define TIME_ANGLE(time) time * (TRIG_MAX_ANGLE / 60)
-#define HOUR_ANGLE(hour) hour * (TRIG_MAX_ANGLE / 12)
+#define HOUR_ANGLE(hour) hour * (TRIG_MAX_ANGLE / 24)
 
 // Draw an arc with given inner/outer radii
 static void draw_arc(GContext *ctx, GRect rect, uint16_t thickness, uint32_t end_angle) {

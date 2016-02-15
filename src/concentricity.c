@@ -30,7 +30,7 @@ static void update_display(Layer *layer, GContext *ctx) {
   draw_minutes(ctx, s_minute, layer);
 
   set_color(ctx, s_palette->hours);
-  draw_hours(ctx, s_hour % 12, layer);
+  draw_hours(ctx, s_hour % 24, layer);
 }
 
 // Update the current time values for the watchface

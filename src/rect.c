@@ -4,7 +4,7 @@
 #include "ui.h"
 
 #define SCALED_TIME(time) ((time) * 100) / 60
-#define SCALED_HOUR(hour) ((hour) * 100) / 12
+#define SCALED_HOUR(hour) ((hour) * 100) / 24
 
 // Define struct to store the numerical values used for drawing a given border
 typedef struct Border {
