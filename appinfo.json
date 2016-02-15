@@ -10,7 +10,15 @@
     "longName": "Concentricity 24-hour",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/menu_icon",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
     },
     "sdkVersion": "3",
     "shortName": "Concentricity-24hr",
